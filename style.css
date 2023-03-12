@@ -1,0 +1,26 @@
+body {
+
+    background-repeat: no-repeat;
+    background-position: center center;
+
+}
+
+header {
+    height: 10vh;
+    background-color: cyan;
+    text-align: center;
+    padding: 10px;
+}
+
+header h2 {
+    margin: .3em;
+}
+
+.headertce {
+    margin-top: .8em;
+}
+
+main{
+    background-color: rgb(175, 52, 52);
+    height: 80vh;
+}
