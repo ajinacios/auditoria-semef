@@ -40,6 +40,7 @@ main{
     background-position: center center;
     background-size: 60%;
     position: relative;
+   
 
 }
 
@@ -50,7 +51,7 @@ main{
     opacity: .9;
     position: relative;
     top: -100%;
-    margin-top: -19px;
+
 }
 
 
@@ -85,4 +86,58 @@ h3 {
 main h3, h2, h1 {
     font-family: 'Golos Text', sans-serif;
 
+}
+
+.conteudo {
+    display: inline-block;
+    height: 15%;
+    width: 30%;
+    text-align: justify;
+}
+
+a {
+    font-family: 'Playfair Display', serif;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.objeto {
+    text-align: justify;
+    width: 50%;
+    margin: auto;
+    background-color: #FAAE43;
+    padding: 15px;
+    border: 3px black;
+    border-radius: 5px;
+    box-shadow: 0px 0px 30px rgba(13, 0, 128, 0.877);
+    margin-bottom: 20px;
+}
+
+.objeto p {
+    margin: .3em;
+}
+
+.conteudo a {
+    display: block;
+    margin: 15px;
+}
+
+.contato {
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 50%;
+    margin: auto;
+    background-color: #28AD4E;
+    color: white;
+    padding: 15px;
+    border: 3px black;
+    margin-bottom: 20px;
+}
+
+.contato p {
+    margin: .3em;
 }
